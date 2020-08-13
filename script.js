@@ -59,8 +59,8 @@ WARNING!!! WARNING!!!
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
     if (firstLetter === 'j') {
-      console.log(names[idx] + " not yet managed");
-      // byeSpeaker.xxxx
+      //console.log(names[idx] + " not yet managed");
+      byeSpeaker.speak(names[idx]);
     } else {
       //console.log(names[idx] + " not yet managed");
       helloSpeaker.speak(names[idx]);
