@@ -62,8 +62,8 @@ WARNING!!! WARNING!!!
       console.log(names[idx] + " not yet managed");
       // byeSpeaker.xxxx
     } else {
-      console.log(names[idx] + " not yet managed");
-      // helloSpeaker.xxxx
+      //console.log(names[idx] + " not yet managed");
+      helloSpeaker.speak(names[idx]);
     }
   }
 
